@@ -41,7 +41,7 @@ const Select = React.forwardRef<HTMLButtonElement, SelectProps>(
               className="fixed inset-0 z-10"
               onClick={() => setIsOpen(false)}
             />
-            <div className="absolute top-full z-20 mt-1 max-h-60 min-w-[8rem] overflow-auto rounded-md border bg-popover p-1 text-popover-foreground shadow-md">
+            <div className="absolute top-full z-50 mt-1 max-h-60 min-w-[8rem] overflow-auto rounded-md border bg-popover text-popover-foreground shadow-md">
               {options.map((option) => (
                 <button
                   key={option.value}

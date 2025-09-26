@@ -1,0 +1,2406 @@
+{
+  "metadata": {
+    "app": {
+      "name": "Everstride",
+      "description": "A modern Next.js application",
+      "version": "0.1.0"
+    },
+    "api": {
+      "baseUrl": "http://localhost:3000/api",
+      "timeout": 10000
+    },
+    "ui": {
+      "itemsPerPage": 10,
+      "maxFileSize": 5242880,
+      "supportedImageTypes": ["image/jpeg", "image/png", "image/webp"]
+    },
+    "routes": {
+      "HOME": "/",
+      "DASHBOARD": "/dashboard",
+      "LOGIN": "/login",
+      "SIGNUP": "/signup",
+      "PROFILE": "/profile"
+    },
+    "storageKeys": {
+      "AUTH_TOKEN": "auth_token",
+      "USER_PREFERENCES": "user_preferences",
+      "THEME": "theme"
+    },
+    "config": {
+      "app": {
+        "name": "Everstride",
+        "description": "A modern Next.js application",
+        "version": "0.1.0",
+        "url": "http://localhost:3000"
+      },
+      "api": {
+        "baseUrl": "http://localhost:3000/api",
+        "timeout": 10000,
+        "retries": 3
+      },
+      "features": {
+        "analytics": false,
+        "darkMode": true,
+        "notifications": false
+      },
+      "services": {
+        "analytics": {
+          "googleAnalyticsId": null
+        }
+      }
+    }
+  },
+  "productionData": [
+    {
+      "id": "2025-08-29-A033070030-BEARING HOUSING-THIMBLE-0",
+      "date": "2025-08-29",
+      "partCategory": "A033070030",
+      "part": "BEARING HOUSING",
+      "subPart": "THIMBLE",
+      "target": 52,
+      "actual": 42
+    },
+    {
+      "id": "2025-08-29-A033080011-HYDRAULIC CYLINDER-THIMBLE-1",
+      "date": "2025-08-29",
+      "partCategory": "A033080011",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "THIMBLE",
+      "target": 109,
+      "actual": 88
+    },
+    {
+      "id": "2025-08-29-A033070003-BEARING HOUSING-BRACKET-2",
+      "date": "2025-08-29",
+      "partCategory": "A033070003",
+      "part": "BEARING HOUSING",
+      "subPart": "BRACKET",
+      "target": 90,
+      "actual": 78
+    },
+    {
+      "id": "2025-08-29-B044050015-BEARING HOUSING-THIMBLE-3",
+      "date": "2025-08-29",
+      "partCategory": "B044050015",
+      "part": "BEARING HOUSING",
+      "subPart": "THIMBLE",
+      "target": 177,
+      "actual": 184
+    },
+    {
+      "id": "2025-08-29-A033070030-SAFETY WIRE-THIMBLE-4",
+      "date": "2025-08-29",
+      "partCategory": "A033070030",
+      "part": "SAFETY WIRE",
+      "subPart": "THIMBLE",
+      "target": 160,
+      "actual": 190
+    },
+    {
+      "id": "2025-08-29-C055060020-SHAFT COUPLING-THIMBLE-5",
+      "date": "2025-08-29",
+      "partCategory": "C055060020",
+      "part": "SHAFT COUPLING",
+      "subPart": "THIMBLE",
+      "target": 100,
+      "actual": 82
+    },
+    {
+      "id": "2025-08-29-C055060020-PEN SWING LINK-FASTENER-6",
+      "date": "2025-08-29",
+      "partCategory": "C055060020",
+      "part": "PEN SWING LINK",
+      "subPart": "FASTENER",
+      "target": 109,
+      "actual": 123
+    },
+    {
+      "id": "2025-08-29-B044050015-PEN SWING LINK-O-RING-7",
+      "date": "2025-08-29",
+      "partCategory": "B044050015",
+      "part": "PEN SWING LINK",
+      "subPart": "O-RING",
+      "target": 81,
+      "actual": 70
+    },
+    {
+      "id": "2025-08-29-A033080011-BRAKE SHOE KEY TYPE A-CONNECTOR-8",
+      "date": "2025-08-29",
+      "partCategory": "A033080011",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "CONNECTOR",
+      "target": 109,
+      "actual": 88
+    },
+    {
+      "id": "2025-08-29-A033070030-VALVE ASSEMBLY-MOUNTING PLATE-9",
+      "date": "2025-08-29",
+      "partCategory": "A033070030",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "MOUNTING PLATE",
+      "target": 122,
+      "actual": 133
+    },
+    {
+      "id": "2025-08-29-B044050015-HYDRAULIC CYLINDER-THIMBLE-10",
+      "date": "2025-08-29",
+      "partCategory": "B044050015",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "THIMBLE",
+      "target": 156,
+      "actual": 145
+    },
+    {
+      "id": "2025-08-29-A033070003-PEN SWING LINK-THIMBLE-11",
+      "date": "2025-08-29",
+      "partCategory": "A033070003",
+      "part": "PEN SWING LINK",
+      "subPart": "THIMBLE",
+      "target": 178,
+      "actual": 155
+    },
+    {
+      "id": "2025-08-30-C055060020-BRAKE SHOE KEY TYPE A-MOUNTING PLATE-0",
+      "date": "2025-08-30",
+      "partCategory": "C055060020",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "MOUNTING PLATE",
+      "target": 51,
+      "actual": 50
+    },
+    {
+      "id": "2025-08-30-B044050015-PEN SWING LINK-CONNECTOR-1",
+      "date": "2025-08-30",
+      "partCategory": "B044050015",
+      "part": "PEN SWING LINK",
+      "subPart": "CONNECTOR",
+      "target": 120,
+      "actual": 123
+    },
+    {
+      "id": "2025-08-30-B044050015-HYDRAULIC CYLINDER-BRACKET-2",
+      "date": "2025-08-30",
+      "partCategory": "B044050015",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "BRACKET",
+      "target": 123,
+      "actual": 110
+    },
+    {
+      "id": "2025-08-30-A033080011-SHAFT COUPLING-BRACKET-3",
+      "date": "2025-08-30",
+      "partCategory": "A033080011",
+      "part": "SHAFT COUPLING",
+      "subPart": "BRACKET",
+      "target": 192,
+      "actual": 187
+    },
+    {
+      "id": "2025-08-30-A033070030-BEARING HOUSING-BUSHING-4",
+      "date": "2025-08-30",
+      "partCategory": "A033070030",
+      "part": "BEARING HOUSING",
+      "subPart": "BUSHING",
+      "target": 141,
+      "actual": 151
+    },
+    {
+      "id": "2025-08-30-A033070003-SHAFT COUPLING-BRACKET-5",
+      "date": "2025-08-30",
+      "partCategory": "A033070003",
+      "part": "SHAFT COUPLING",
+      "subPart": "BRACKET",
+      "target": 136,
+      "actual": 131
+    },
+    {
+      "id": "2025-08-31-A033070030-HYDRAULIC CYLINDER-CONNECTOR-0",
+      "date": "2025-08-31",
+      "partCategory": "A033070030",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "CONNECTOR",
+      "target": 128,
+      "actual": 135
+    },
+    {
+      "id": "2025-08-31-A033070003-BEARING HOUSING-WASHER-1",
+      "date": "2025-08-31",
+      "partCategory": "A033070003",
+      "part": "BEARING HOUSING",
+      "subPart": "WASHER",
+      "target": 122,
+      "actual": 113
+    },
+    {
+      "id": "2025-08-31-C055060020-BEARING HOUSING-FASTENER-2",
+      "date": "2025-08-31",
+      "partCategory": "C055060020",
+      "part": "BEARING HOUSING",
+      "subPart": "FASTENER",
+      "target": 116,
+      "actual": 128
+    },
+    {
+      "id": "2025-08-31-A033070030-SHAFT COUPLING-CONNECTOR-3",
+      "date": "2025-08-31",
+      "partCategory": "A033070030",
+      "part": "SHAFT COUPLING",
+      "subPart": "CONNECTOR",
+      "target": 183,
+      "actual": 188
+    },
+    {
+      "id": "2025-08-31-A033070003-SHAFT COUPLING-FASTENER-4",
+      "date": "2025-08-31",
+      "partCategory": "A033070003",
+      "part": "SHAFT COUPLING",
+      "subPart": "FASTENER",
+      "target": 184,
+      "actual": 205
+    },
+    {
+      "id": "2025-08-31-A033080011-VALVE ASSEMBLY-CONNECTOR-5",
+      "date": "2025-08-31",
+      "partCategory": "A033080011",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "CONNECTOR",
+      "target": 178,
+      "actual": 174
+    },
+    {
+      "id": "2025-08-31-A033070003-SAFETY WIRE-FASTENER-6",
+      "date": "2025-08-31",
+      "partCategory": "A033070003",
+      "part": "SAFETY WIRE",
+      "subPart": "FASTENER",
+      "target": 95,
+      "actual": 81
+    },
+    {
+      "id": "2025-08-31-A033070003-SAFETY WIRE-O-RING-7",
+      "date": "2025-08-31",
+      "partCategory": "A033070003",
+      "part": "SAFETY WIRE",
+      "subPart": "O-RING",
+      "target": 127,
+      "actual": 147
+    },
+    {
+      "id": "2025-08-31-A033070003-PEN SWING LINK-MOUNTING PLATE-8",
+      "date": "2025-08-31",
+      "partCategory": "A033070003",
+      "part": "PEN SWING LINK",
+      "subPart": "MOUNTING PLATE",
+      "target": 129,
+      "actual": 111
+    },
+    {
+      "id": "2025-08-31-A033080011-PEN SWING LINK-MOUNTING PLATE-9",
+      "date": "2025-08-31",
+      "partCategory": "A033080011",
+      "part": "PEN SWING LINK",
+      "subPart": "MOUNTING PLATE",
+      "target": 197,
+      "actual": 159
+    },
+    {
+      "id": "2025-09-01-C055060020-PEN SWING LINK-SEAL RING-0",
+      "date": "2025-09-01",
+      "partCategory": "C055060020",
+      "part": "PEN SWING LINK",
+      "subPart": "SEAL RING",
+      "target": 159,
+      "actual": 133
+    },
+    {
+      "id": "2025-09-01-B044050015-SAFETY WIRE-WASHER-1",
+      "date": "2025-09-01",
+      "partCategory": "B044050015",
+      "part": "SAFETY WIRE",
+      "subPart": "WASHER",
+      "target": 176,
+      "actual": 152
+    },
+    {
+      "id": "2025-09-01-C055060020-VALVE ASSEMBLY-THIMBLE-2",
+      "date": "2025-09-01",
+      "partCategory": "C055060020",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "THIMBLE",
+      "target": 52,
+      "actual": 48
+    },
+    {
+      "id": "2025-09-01-C055060020-BRAKE SHOE KEY TYPE A-BRACKET-3",
+      "date": "2025-09-01",
+      "partCategory": "C055060020",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "BRACKET",
+      "target": 120,
+      "actual": 127
+    },
+    {
+      "id": "2025-09-01-B044050015-PEN SWING LINK-MOUNTING PLATE-4",
+      "date": "2025-09-01",
+      "partCategory": "B044050015",
+      "part": "PEN SWING LINK",
+      "subPart": "MOUNTING PLATE",
+      "target": 146,
+      "actual": 127
+    },
+    {
+      "id": "2025-09-01-A033080011-PEN SWING LINK-BRACKET-5",
+      "date": "2025-09-01",
+      "partCategory": "A033080011",
+      "part": "PEN SWING LINK",
+      "subPart": "BRACKET",
+      "target": 146,
+      "actual": 162
+    },
+    {
+      "id": "2025-09-01-A033070030-BRAKE SHOE KEY TYPE A-BUSHING-6",
+      "date": "2025-09-01",
+      "partCategory": "A033070030",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "BUSHING",
+      "target": 103,
+      "actual": 119
+    },
+    {
+      "id": "2025-09-01-A033070030-VALVE ASSEMBLY-BRACKET-7",
+      "date": "2025-09-01",
+      "partCategory": "A033070030",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "BRACKET",
+      "target": 135,
+      "actual": 113
+    },
+    {
+      "id": "2025-09-01-B044050015-BRAKE SHOE KEY TYPE A-WASHER-8",
+      "date": "2025-09-01",
+      "partCategory": "B044050015",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "WASHER",
+      "target": 138,
+      "actual": 129
+    },
+    {
+      "id": "2025-09-01-C055060020-SHAFT COUPLING-SEAL RING-9",
+      "date": "2025-09-01",
+      "partCategory": "C055060020",
+      "part": "SHAFT COUPLING",
+      "subPart": "SEAL RING",
+      "target": 155,
+      "actual": 149
+    },
+    {
+      "id": "2025-09-01-A033080011-SHAFT COUPLING-LOCKING METAL-10",
+      "date": "2025-09-01",
+      "partCategory": "A033080011",
+      "part": "SHAFT COUPLING",
+      "subPart": "LOCKING METAL",
+      "target": 172,
+      "actual": 147
+    },
+    {
+      "id": "2025-09-02-A033070030-BEARING HOUSING-LOCKING METAL-0",
+      "date": "2025-09-02",
+      "partCategory": "A033070030",
+      "part": "BEARING HOUSING",
+      "subPart": "LOCKING METAL",
+      "target": 57,
+      "actual": 63
+    },
+    {
+      "id": "2025-09-02-B044050015-SHAFT COUPLING-CONNECTOR-1",
+      "date": "2025-09-02",
+      "partCategory": "B044050015",
+      "part": "SHAFT COUPLING",
+      "subPart": "CONNECTOR",
+      "target": 195,
+      "actual": 169
+    },
+    {
+      "id": "2025-09-02-A033070030-BRAKE SHOE KEY TYPE A-THIMBLE-2",
+      "date": "2025-09-02",
+      "partCategory": "A033070030",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "THIMBLE",
+      "target": 163,
+      "actual": 133
+    },
+    {
+      "id": "2025-09-02-B044050015-BEARING HOUSING-WASHER-3",
+      "date": "2025-09-02",
+      "partCategory": "B044050015",
+      "part": "BEARING HOUSING",
+      "subPart": "WASHER",
+      "target": 120,
+      "actual": 115
+    },
+    {
+      "id": "2025-09-02-B044050015-VALVE ASSEMBLY-THIMBLE-4",
+      "date": "2025-09-02",
+      "partCategory": "B044050015",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "THIMBLE",
+      "target": 64,
+      "actual": 66
+    },
+    {
+      "id": "2025-09-02-A033070003-SAFETY WIRE-SEAL RING-5",
+      "date": "2025-09-02",
+      "partCategory": "A033070003",
+      "part": "SAFETY WIRE",
+      "subPart": "SEAL RING",
+      "target": 83,
+      "actual": 75
+    },
+    {
+      "id": "2025-09-02-A033070003-BEARING HOUSING-LOCKING METAL-6",
+      "date": "2025-09-02",
+      "partCategory": "A033070003",
+      "part": "BEARING HOUSING",
+      "subPart": "LOCKING METAL",
+      "target": 82,
+      "actual": 73
+    },
+    {
+      "id": "2025-09-02-A033080011-BEARING HOUSING-THIMBLE-7",
+      "date": "2025-09-02",
+      "partCategory": "A033080011",
+      "part": "BEARING HOUSING",
+      "subPart": "THIMBLE",
+      "target": 142,
+      "actual": 170
+    },
+    {
+      "id": "2025-09-02-B044050015-BRAKE SHOE KEY TYPE A-BRACKET-8",
+      "date": "2025-09-02",
+      "partCategory": "B044050015",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "BRACKET",
+      "target": 82,
+      "actual": 80
+    },
+    {
+      "id": "2025-09-03-A033070030-SHAFT COUPLING-LOCKING METAL-0",
+      "date": "2025-09-03",
+      "partCategory": "A033070030",
+      "part": "SHAFT COUPLING",
+      "subPart": "LOCKING METAL",
+      "target": 176,
+      "actual": 144
+    },
+    {
+      "id": "2025-09-03-C055060020-VALVE ASSEMBLY-THIMBLE-1",
+      "date": "2025-09-03",
+      "partCategory": "C055060020",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "THIMBLE",
+      "target": 83,
+      "actual": 71
+    },
+    {
+      "id": "2025-09-03-A033070003-BEARING HOUSING-LOCKING METAL-2",
+      "date": "2025-09-03",
+      "partCategory": "A033070003",
+      "part": "BEARING HOUSING",
+      "subPart": "LOCKING METAL",
+      "target": 74,
+      "actual": 83
+    },
+    {
+      "id": "2025-09-03-C055060020-PEN SWING LINK-CONNECTOR-3",
+      "date": "2025-09-03",
+      "partCategory": "C055060020",
+      "part": "PEN SWING LINK",
+      "subPart": "CONNECTOR",
+      "target": 200,
+      "actual": 221
+    },
+    {
+      "id": "2025-09-03-A033080011-VALVE ASSEMBLY-CONNECTOR-4",
+      "date": "2025-09-03",
+      "partCategory": "A033080011",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "CONNECTOR",
+      "target": 177,
+      "actual": 168
+    },
+    {
+      "id": "2025-09-03-B044050015-BRAKE SHOE KEY TYPE A-O-RING-5",
+      "date": "2025-09-03",
+      "partCategory": "B044050015",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "O-RING",
+      "target": 86,
+      "actual": 88
+    },
+    {
+      "id": "2025-09-03-A033070003-PEN SWING LINK-LOCKING METAL-6",
+      "date": "2025-09-03",
+      "partCategory": "A033070003",
+      "part": "PEN SWING LINK",
+      "subPart": "LOCKING METAL",
+      "target": 178,
+      "actual": 151
+    },
+    {
+      "id": "2025-09-04-A033080011-SAFETY WIRE-THIMBLE-0",
+      "date": "2025-09-04",
+      "partCategory": "A033080011",
+      "part": "SAFETY WIRE",
+      "subPart": "THIMBLE",
+      "target": 61,
+      "actual": 63
+    },
+    {
+      "id": "2025-09-04-A033080011-VALVE ASSEMBLY-O-RING-1",
+      "date": "2025-09-04",
+      "partCategory": "A033080011",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "O-RING",
+      "target": 192,
+      "actual": 196
+    },
+    {
+      "id": "2025-09-04-B044050015-BRAKE SHOE KEY TYPE A-O-RING-2",
+      "date": "2025-09-04",
+      "partCategory": "B044050015",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "O-RING",
+      "target": 98,
+      "actual": 94
+    },
+    {
+      "id": "2025-09-04-A033070003-VALVE ASSEMBLY-WASHER-3",
+      "date": "2025-09-04",
+      "partCategory": "A033070003",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "WASHER",
+      "target": 169,
+      "actual": 197
+    },
+    {
+      "id": "2025-09-04-A033070030-SAFETY WIRE-O-RING-4",
+      "date": "2025-09-04",
+      "partCategory": "A033070030",
+      "part": "SAFETY WIRE",
+      "subPart": "O-RING",
+      "target": 77,
+      "actual": 86
+    },
+    {
+      "id": "2025-09-04-A033070030-SAFETY WIRE-CONNECTOR-5",
+      "date": "2025-09-04",
+      "partCategory": "A033070030",
+      "part": "SAFETY WIRE",
+      "subPart": "CONNECTOR",
+      "target": 85,
+      "actual": 77
+    },
+    {
+      "id": "2025-09-04-C055060020-VALVE ASSEMBLY-O-RING-6",
+      "date": "2025-09-04",
+      "partCategory": "C055060020",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "O-RING",
+      "target": 65,
+      "actual": 68
+    },
+    {
+      "id": "2025-09-04-C055060020-HYDRAULIC CYLINDER-O-RING-7",
+      "date": "2025-09-04",
+      "partCategory": "C055060020",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "O-RING",
+      "target": 110,
+      "actual": 99
+    },
+    {
+      "id": "2025-09-05-A033070030-BRAKE SHOE KEY TYPE A-FASTENER-0",
+      "date": "2025-09-05",
+      "partCategory": "A033070030",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "FASTENER",
+      "target": 182,
+      "actual": 219
+    },
+    {
+      "id": "2025-09-05-A033080011-BEARING HOUSING-O-RING-1",
+      "date": "2025-09-05",
+      "partCategory": "A033080011",
+      "part": "BEARING HOUSING",
+      "subPart": "O-RING",
+      "target": 66,
+      "actual": 62
+    },
+    {
+      "id": "2025-09-05-A033070030-PEN SWING LINK-THIMBLE-2",
+      "date": "2025-09-05",
+      "partCategory": "A033070030",
+      "part": "PEN SWING LINK",
+      "subPart": "THIMBLE",
+      "target": 175,
+      "actual": 193
+    },
+    {
+      "id": "2025-09-05-A033070003-SHAFT COUPLING-MOUNTING PLATE-3",
+      "date": "2025-09-05",
+      "partCategory": "A033070003",
+      "part": "SHAFT COUPLING",
+      "subPart": "MOUNTING PLATE",
+      "target": 171,
+      "actual": 189
+    },
+    {
+      "id": "2025-09-05-A033070003-SHAFT COUPLING-THIMBLE-4",
+      "date": "2025-09-05",
+      "partCategory": "A033070003",
+      "part": "SHAFT COUPLING",
+      "subPart": "THIMBLE",
+      "target": 169,
+      "actual": 183
+    },
+    {
+      "id": "2025-09-05-A033070030-PEN SWING LINK-CONNECTOR-5",
+      "date": "2025-09-05",
+      "partCategory": "A033070030",
+      "part": "PEN SWING LINK",
+      "subPart": "CONNECTOR",
+      "target": 118,
+      "actual": 115
+    },
+    {
+      "id": "2025-09-05-A033070003-HYDRAULIC CYLINDER-BUSHING-6",
+      "date": "2025-09-05",
+      "partCategory": "A033070003",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "BUSHING",
+      "target": 149,
+      "actual": 134
+    },
+    {
+      "id": "2025-09-05-C055060020-VALVE ASSEMBLY-SEAL RING-7",
+      "date": "2025-09-05",
+      "partCategory": "C055060020",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "SEAL RING",
+      "target": 141,
+      "actual": 120
+    },
+    {
+      "id": "2025-09-05-C055060020-HYDRAULIC CYLINDER-LOCKING METAL-8",
+      "date": "2025-09-05",
+      "partCategory": "C055060020",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "LOCKING METAL",
+      "target": 101,
+      "actual": 88
+    },
+    {
+      "id": "2025-09-05-A033080011-BEARING HOUSING-MOUNTING PLATE-9",
+      "date": "2025-09-05",
+      "partCategory": "A033080011",
+      "part": "BEARING HOUSING",
+      "subPart": "MOUNTING PLATE",
+      "target": 182,
+      "actual": 210
+    },
+    {
+      "id": "2025-09-05-C055060020-BRAKE SHOE KEY TYPE A-O-RING-10",
+      "date": "2025-09-05",
+      "partCategory": "C055060020",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "O-RING",
+      "target": 129,
+      "actual": 116
+    },
+    {
+      "id": "2025-09-06-A033070030-HYDRAULIC CYLINDER-MOUNTING PLATE-0",
+      "date": "2025-09-06",
+      "partCategory": "A033070030",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "MOUNTING PLATE",
+      "target": 177,
+      "actual": 194
+    },
+    {
+      "id": "2025-09-06-A033070030-BEARING HOUSING-WASHER-1",
+      "date": "2025-09-06",
+      "partCategory": "A033070030",
+      "part": "BEARING HOUSING",
+      "subPart": "WASHER",
+      "target": 73,
+      "actual": 63
+    },
+    {
+      "id": "2025-09-06-A033070030-BEARING HOUSING-THIMBLE-2",
+      "date": "2025-09-06",
+      "partCategory": "A033070030",
+      "part": "BEARING HOUSING",
+      "subPart": "THIMBLE",
+      "target": 163,
+      "actual": 138
+    },
+    {
+      "id": "2025-09-06-C055060020-HYDRAULIC CYLINDER-FASTENER-3",
+      "date": "2025-09-06",
+      "partCategory": "C055060020",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "FASTENER",
+      "target": 59,
+      "actual": 51
+    },
+    {
+      "id": "2025-09-06-B044050015-VALVE ASSEMBLY-O-RING-4",
+      "date": "2025-09-06",
+      "partCategory": "B044050015",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "O-RING",
+      "target": 155,
+      "actual": 166
+    },
+    {
+      "id": "2025-09-06-A033080011-BRAKE SHOE KEY TYPE A-FASTENER-5",
+      "date": "2025-09-06",
+      "partCategory": "A033080011",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "FASTENER",
+      "target": 105,
+      "actual": 119
+    },
+    {
+      "id": "2025-09-06-B044050015-BEARING HOUSING-BUSHING-6",
+      "date": "2025-09-06",
+      "partCategory": "B044050015",
+      "part": "BEARING HOUSING",
+      "subPart": "BUSHING",
+      "target": 108,
+      "actual": 113
+    },
+    {
+      "id": "2025-09-06-C055060020-VALVE ASSEMBLY-THIMBLE-7",
+      "date": "2025-09-06",
+      "partCategory": "C055060020",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "THIMBLE",
+      "target": 168,
+      "actual": 156
+    },
+    {
+      "id": "2025-09-07-A033080011-HYDRAULIC CYLINDER-BRACKET-0",
+      "date": "2025-09-07",
+      "partCategory": "A033080011",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "BRACKET",
+      "target": 154,
+      "actual": 158
+    },
+    {
+      "id": "2025-09-07-C055060020-BEARING HOUSING-BUSHING-1",
+      "date": "2025-09-07",
+      "partCategory": "C055060020",
+      "part": "BEARING HOUSING",
+      "subPart": "BUSHING",
+      "target": 172,
+      "actual": 170
+    },
+    {
+      "id": "2025-09-07-B044050015-BRAKE SHOE KEY TYPE A-LOCKING METAL-2",
+      "date": "2025-09-07",
+      "partCategory": "B044050015",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "LOCKING METAL",
+      "target": 54,
+      "actual": 49
+    },
+    {
+      "id": "2025-09-07-A033070030-SAFETY WIRE-O-RING-3",
+      "date": "2025-09-07",
+      "partCategory": "A033070030",
+      "part": "SAFETY WIRE",
+      "subPart": "O-RING",
+      "target": 181,
+      "actual": 197
+    },
+    {
+      "id": "2025-09-07-B044050015-VALVE ASSEMBLY-CONNECTOR-4",
+      "date": "2025-09-07",
+      "partCategory": "B044050015",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "CONNECTOR",
+      "target": 69,
+      "actual": 72
+    },
+    {
+      "id": "2025-09-07-A033070030-PEN SWING LINK-FASTENER-5",
+      "date": "2025-09-07",
+      "partCategory": "A033070030",
+      "part": "PEN SWING LINK",
+      "subPart": "FASTENER",
+      "target": 169,
+      "actual": 193
+    },
+    {
+      "id": "2025-09-07-B044050015-VALVE ASSEMBLY-MOUNTING PLATE-6",
+      "date": "2025-09-07",
+      "partCategory": "B044050015",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "MOUNTING PLATE",
+      "target": 61,
+      "actual": 70
+    },
+    {
+      "id": "2025-09-07-A033080011-SHAFT COUPLING-BRACKET-7",
+      "date": "2025-09-07",
+      "partCategory": "A033080011",
+      "part": "SHAFT COUPLING",
+      "subPart": "BRACKET",
+      "target": 195,
+      "actual": 220
+    },
+    {
+      "id": "2025-09-07-C055060020-PEN SWING LINK-THIMBLE-8",
+      "date": "2025-09-07",
+      "partCategory": "C055060020",
+      "part": "PEN SWING LINK",
+      "subPart": "THIMBLE",
+      "target": 199,
+      "actual": 174
+    },
+    {
+      "id": "2025-09-08-A033070003-SAFETY WIRE-O-RING-0",
+      "date": "2025-09-08",
+      "partCategory": "A033070003",
+      "part": "SAFETY WIRE",
+      "subPart": "O-RING",
+      "target": 57,
+      "actual": 59
+    },
+    {
+      "id": "2025-09-08-B044050015-HYDRAULIC CYLINDER-BUSHING-1",
+      "date": "2025-09-08",
+      "partCategory": "B044050015",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "BUSHING",
+      "target": 90,
+      "actual": 96
+    },
+    {
+      "id": "2025-09-08-A033080011-BEARING HOUSING-FASTENER-2",
+      "date": "2025-09-08",
+      "partCategory": "A033080011",
+      "part": "BEARING HOUSING",
+      "subPart": "FASTENER",
+      "target": 53,
+      "actual": 49
+    },
+    {
+      "id": "2025-09-08-B044050015-PEN SWING LINK-O-RING-3",
+      "date": "2025-09-08",
+      "partCategory": "B044050015",
+      "part": "PEN SWING LINK",
+      "subPart": "O-RING",
+      "target": 159,
+      "actual": 128
+    },
+    {
+      "id": "2025-09-08-A033080011-BRAKE SHOE KEY TYPE A-MOUNTING PLATE-4",
+      "date": "2025-09-08",
+      "partCategory": "A033080011",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "MOUNTING PLATE",
+      "target": 150,
+      "actual": 122
+    },
+    {
+      "id": "2025-09-08-A033070003-HYDRAULIC CYLINDER-BRACKET-5",
+      "date": "2025-09-08",
+      "partCategory": "A033070003",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "BRACKET",
+      "target": 138,
+      "actual": 142
+    },
+    {
+      "id": "2025-09-09-C055060020-SAFETY WIRE-SEAL RING-0",
+      "date": "2025-09-09",
+      "partCategory": "C055060020",
+      "part": "SAFETY WIRE",
+      "subPart": "SEAL RING",
+      "target": 155,
+      "actual": 148
+    },
+    {
+      "id": "2025-09-09-A033080011-HYDRAULIC CYLINDER-THIMBLE-1",
+      "date": "2025-09-09",
+      "partCategory": "A033080011",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "THIMBLE",
+      "target": 119,
+      "actual": 122
+    },
+    {
+      "id": "2025-09-09-A033080011-BEARING HOUSING-WASHER-2",
+      "date": "2025-09-09",
+      "partCategory": "A033080011",
+      "part": "BEARING HOUSING",
+      "subPart": "WASHER",
+      "target": 183,
+      "actual": 169
+    },
+    {
+      "id": "2025-09-09-A033070030-HYDRAULIC CYLINDER-CONNECTOR-3",
+      "date": "2025-09-09",
+      "partCategory": "A033070030",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "CONNECTOR",
+      "target": 188,
+      "actual": 192
+    },
+    {
+      "id": "2025-09-09-A033070030-PEN SWING LINK-WASHER-4",
+      "date": "2025-09-09",
+      "partCategory": "A033070030",
+      "part": "PEN SWING LINK",
+      "subPart": "WASHER",
+      "target": 79,
+      "actual": 85
+    },
+    {
+      "id": "2025-09-09-C055060020-VALVE ASSEMBLY-SEAL RING-5",
+      "date": "2025-09-09",
+      "partCategory": "C055060020",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "SEAL RING",
+      "target": 199,
+      "actual": 180
+    },
+    {
+      "id": "2025-09-09-C055060020-HYDRAULIC CYLINDER-O-RING-6",
+      "date": "2025-09-09",
+      "partCategory": "C055060020",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "O-RING",
+      "target": 122,
+      "actual": 134
+    },
+    {
+      "id": "2025-09-09-B044050015-SAFETY WIRE-O-RING-7",
+      "date": "2025-09-09",
+      "partCategory": "B044050015",
+      "part": "SAFETY WIRE",
+      "subPart": "O-RING",
+      "target": 129,
+      "actual": 117
+    },
+    {
+      "id": "2025-09-09-A033070003-BRAKE SHOE KEY TYPE A-LOCKING METAL-8",
+      "date": "2025-09-09",
+      "partCategory": "A033070003",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "LOCKING METAL",
+      "target": 114,
+      "actual": 99
+    },
+    {
+      "id": "2025-09-09-A033070003-BRAKE SHOE KEY TYPE A-LOCKING METAL-9",
+      "date": "2025-09-09",
+      "partCategory": "A033070003",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "LOCKING METAL",
+      "target": 74,
+      "actual": 86
+    },
+    {
+      "id": "2025-09-09-A033080011-SAFETY WIRE-BRACKET-10",
+      "date": "2025-09-09",
+      "partCategory": "A033080011",
+      "part": "SAFETY WIRE",
+      "subPart": "BRACKET",
+      "target": 84,
+      "actual": 85
+    },
+    {
+      "id": "2025-09-10-A033070030-BEARING HOUSING-THIMBLE-0",
+      "date": "2025-09-10",
+      "partCategory": "A033070030",
+      "part": "BEARING HOUSING",
+      "subPart": "THIMBLE",
+      "target": 52,
+      "actual": 42
+    },
+    {
+      "id": "2025-09-10-A033080011-HYDRAULIC CYLINDER-THIMBLE-1",
+      "date": "2025-09-10",
+      "partCategory": "A033080011",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "THIMBLE",
+      "target": 109,
+      "actual": 88
+    },
+    {
+      "id": "2025-09-10-A033070003-BEARING HOUSING-BRACKET-2",
+      "date": "2025-09-10",
+      "partCategory": "A033070003",
+      "part": "BEARING HOUSING",
+      "subPart": "BRACKET",
+      "target": 90,
+      "actual": 78
+    },
+    {
+      "id": "2025-09-10-B044050015-BEARING HOUSING-THIMBLE-3",
+      "date": "2025-09-10",
+      "partCategory": "B044050015",
+      "part": "BEARING HOUSING",
+      "subPart": "THIMBLE",
+      "target": 177,
+      "actual": 184
+    },
+    {
+      "id": "2025-09-10-A033070030-SAFETY WIRE-THIMBLE-4",
+      "date": "2025-09-10",
+      "partCategory": "A033070030",
+      "part": "SAFETY WIRE",
+      "subPart": "THIMBLE",
+      "target": 160,
+      "actual": 190
+    },
+    {
+      "id": "2025-09-11-A033070003-SHAFT COUPLING-THIMBLE-0",
+      "date": "2025-09-11",
+      "partCategory": "A033070003",
+      "part": "SHAFT COUPLING",
+      "subPart": "THIMBLE",
+      "target": 100,
+      "actual": 82
+    },
+    {
+      "id": "2025-09-11-C055060020-PEN SWING LINK-FASTENER-1",
+      "date": "2025-09-11",
+      "partCategory": "C055060020",
+      "part": "PEN SWING LINK",
+      "subPart": "FASTENER",
+      "target": 109,
+      "actual": 123
+    },
+    {
+      "id": "2025-09-11-B044050015-PEN SWING LINK-O-RING-2",
+      "date": "2025-09-11",
+      "partCategory": "B044050015",
+      "part": "PEN SWING LINK",
+      "subPart": "O-RING",
+      "target": 81,
+      "actual": 70
+    },
+    {
+      "id": "2025-09-11-A033080011-BRAKE SHOE KEY TYPE A-CONNECTOR-3",
+      "date": "2025-09-11",
+      "partCategory": "A033080011",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "CONNECTOR",
+      "target": 109,
+      "actual": 88
+    },
+    {
+      "id": "2025-09-11-A033070030-VALVE ASSEMBLY-MOUNTING PLATE-4",
+      "date": "2025-09-11",
+      "partCategory": "A033070030",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "MOUNTING PLATE",
+      "target": 122,
+      "actual": 133
+    },
+    {
+      "id": "2025-09-11-B044050015-HYDRAULIC CYLINDER-THIMBLE-5",
+      "date": "2025-09-11",
+      "partCategory": "B044050015",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "THIMBLE",
+      "target": 156,
+      "actual": 145
+    },
+    {
+      "id": "2025-09-11-A033070003-PEN SWING LINK-THIMBLE-6",
+      "date": "2025-09-11",
+      "partCategory": "A033070003",
+      "part": "PEN SWING LINK",
+      "subPart": "THIMBLE",
+      "target": 178,
+      "actual": 155
+    },
+    {
+      "id": "2025-09-12-C055060020-BRAKE SHOE KEY TYPE A-MOUNTING PLATE-0",
+      "date": "2025-09-12",
+      "partCategory": "C055060020",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "MOUNTING PLATE",
+      "target": 51,
+      "actual": 50
+    },
+    {
+      "id": "2025-09-12-B044050015-PEN SWING LINK-CONNECTOR-1",
+      "date": "2025-09-12",
+      "partCategory": "B044050015",
+      "part": "PEN SWING LINK",
+      "subPart": "CONNECTOR",
+      "target": 120,
+      "actual": 123
+    },
+    {
+      "id": "2025-09-12-B044050015-HYDRAULIC CYLINDER-BRACKET-2",
+      "date": "2025-09-12",
+      "partCategory": "B044050015",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "BRACKET",
+      "target": 123,
+      "actual": 110
+    },
+    {
+      "id": "2025-09-12-A033080011-SHAFT COUPLING-BRACKET-3",
+      "date": "2025-09-12",
+      "partCategory": "A033080011",
+      "part": "SHAFT COUPLING",
+      "subPart": "BRACKET",
+      "target": 192,
+      "actual": 187
+    },
+    {
+      "id": "2025-09-12-A033070030-BEARING HOUSING-BUSHING-4",
+      "date": "2025-09-12",
+      "partCategory": "A033070030",
+      "part": "BEARING HOUSING",
+      "subPart": "BUSHING",
+      "target": 141,
+      "actual": 151
+    },
+    {
+      "id": "2025-09-12-A033070003-SHAFT COUPLING-BRACKET-5",
+      "date": "2025-09-12",
+      "partCategory": "A033070003",
+      "part": "SHAFT COUPLING",
+      "subPart": "BRACKET",
+      "target": 136,
+      "actual": 131
+    },
+    {
+      "id": "2025-09-13-A033070030-HYDRAULIC CYLINDER-CONNECTOR-0",
+      "date": "2025-09-13",
+      "partCategory": "A033070030",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "CONNECTOR",
+      "target": 128,
+      "actual": 135
+    },
+    {
+      "id": "2025-09-13-A033070003-BEARING HOUSING-WASHER-1",
+      "date": "2025-09-13",
+      "partCategory": "A033070003",
+      "part": "BEARING HOUSING",
+      "subPart": "WASHER",
+      "target": 122,
+      "actual": 113
+    },
+    {
+      "id": "2025-09-13-C055060020-BEARING HOUSING-FASTENER-2",
+      "date": "2025-09-13",
+      "partCategory": "C055060020",
+      "part": "BEARING HOUSING",
+      "subPart": "FASTENER",
+      "target": 116,
+      "actual": 128
+    },
+    {
+      "id": "2025-09-13-A033070030-SHAFT COUPLING-CONNECTOR-3",
+      "date": "2025-09-13",
+      "partCategory": "A033070030",
+      "part": "SHAFT COUPLING",
+      "subPart": "CONNECTOR",
+      "target": 183,
+      "actual": 188
+    },
+    {
+      "id": "2025-09-13-A033070003-SHAFT COUPLING-FASTENER-4",
+      "date": "2025-09-13",
+      "partCategory": "A033070003",
+      "part": "SHAFT COUPLING",
+      "subPart": "FASTENER",
+      "target": 184,
+      "actual": 205
+    },
+    {
+      "id": "2025-09-13-A033080011-VALVE ASSEMBLY-CONNECTOR-5",
+      "date": "2025-09-13",
+      "partCategory": "A033080011",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "CONNECTOR",
+      "target": 178,
+      "actual": 174
+    },
+    {
+      "id": "2025-09-13-A033070003-SAFETY WIRE-FASTENER-6",
+      "date": "2025-09-13",
+      "partCategory": "A033070003",
+      "part": "SAFETY WIRE",
+      "subPart": "FASTENER",
+      "target": 95,
+      "actual": 81
+    },
+    {
+      "id": "2025-09-13-A033070003-SAFETY WIRE-O-RING-7",
+      "date": "2025-09-13",
+      "partCategory": "A033070003",
+      "part": "SAFETY WIRE",
+      "subPart": "O-RING",
+      "target": 127,
+      "actual": 147
+    },
+    {
+      "id": "2025-09-13-A033070003-PEN SWING LINK-MOUNTING PLATE-8",
+      "date": "2025-09-13",
+      "partCategory": "A033070003",
+      "part": "PEN SWING LINK",
+      "subPart": "MOUNTING PLATE",
+      "target": 129,
+      "actual": 111
+    },
+    {
+      "id": "2025-09-13-A033080011-PEN SWING LINK-MOUNTING PLATE-9",
+      "date": "2025-09-13",
+      "partCategory": "A033080011",
+      "part": "PEN SWING LINK",
+      "subPart": "MOUNTING PLATE",
+      "target": 197,
+      "actual": 159
+    },
+    {
+      "id": "2025-09-14-C055060020-PEN SWING LINK-SEAL RING-0",
+      "date": "2025-09-14",
+      "partCategory": "C055060020",
+      "part": "PEN SWING LINK",
+      "subPart": "SEAL RING",
+      "target": 159,
+      "actual": 133
+    },
+    {
+      "id": "2025-09-14-B044050015-SAFETY WIRE-WASHER-1",
+      "date": "2025-09-14",
+      "partCategory": "B044050015",
+      "part": "SAFETY WIRE",
+      "subPart": "WASHER",
+      "target": 176,
+      "actual": 152
+    },
+    {
+      "id": "2025-09-14-C055060020-VALVE ASSEMBLY-THIMBLE-2",
+      "date": "2025-09-14",
+      "partCategory": "C055060020",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "THIMBLE",
+      "target": 52,
+      "actual": 48
+    },
+    {
+      "id": "2025-09-14-C055060020-BRAKE SHOE KEY TYPE A-BRACKET-3",
+      "date": "2025-09-14",
+      "partCategory": "C055060020",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "BRACKET",
+      "target": 120,
+      "actual": 127
+    },
+    {
+      "id": "2025-09-14-B044050015-PEN SWING LINK-MOUNTING PLATE-4",
+      "date": "2025-09-14",
+      "partCategory": "B044050015",
+      "part": "PEN SWING LINK",
+      "subPart": "MOUNTING PLATE",
+      "target": 146,
+      "actual": 127
+    },
+    {
+      "id": "2025-09-14-A033080011-PEN SWING LINK-BRACKET-5",
+      "date": "2025-09-14",
+      "partCategory": "A033080011",
+      "part": "PEN SWING LINK",
+      "subPart": "BRACKET",
+      "target": 146,
+      "actual": 162
+    },
+    {
+      "id": "2025-09-14-A033070030-BRAKE SHOE KEY TYPE A-BUSHING-6",
+      "date": "2025-09-14",
+      "partCategory": "A033070030",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "BUSHING",
+      "target": 103,
+      "actual": 119
+    },
+    {
+      "id": "2025-09-14-A033070030-VALVE ASSEMBLY-BRACKET-7",
+      "date": "2025-09-14",
+      "partCategory": "A033070030",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "BRACKET",
+      "target": 135,
+      "actual": 113
+    },
+    {
+      "id": "2025-09-14-B044050015-BRAKE SHOE KEY TYPE A-WASHER-8",
+      "date": "2025-09-14",
+      "partCategory": "B044050015",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "WASHER",
+      "target": 138,
+      "actual": 129
+    },
+    {
+      "id": "2025-09-14-C055060020-SHAFT COUPLING-SEAL RING-9",
+      "date": "2025-09-14",
+      "partCategory": "C055060020",
+      "part": "SHAFT COUPLING",
+      "subPart": "SEAL RING",
+      "target": 155,
+      "actual": 149
+    },
+    {
+      "id": "2025-09-14-A033080011-SHAFT COUPLING-LOCKING METAL-10",
+      "date": "2025-09-14",
+      "partCategory": "A033080011",
+      "part": "SHAFT COUPLING",
+      "subPart": "LOCKING METAL",
+      "target": 172,
+      "actual": 147
+    },
+    {
+      "id": "2025-09-15-A033070030-BEARING HOUSING-LOCKING METAL-0",
+      "date": "2025-09-15",
+      "partCategory": "A033070030",
+      "part": "BEARING HOUSING",
+      "subPart": "LOCKING METAL",
+      "target": 57,
+      "actual": 63
+    },
+    {
+      "id": "2025-09-15-B044050015-SHAFT COUPLING-CONNECTOR-1",
+      "date": "2025-09-15",
+      "partCategory": "B044050015",
+      "part": "SHAFT COUPLING",
+      "subPart": "CONNECTOR",
+      "target": 195,
+      "actual": 169
+    },
+    {
+      "id": "2025-09-15-A033070030-BRAKE SHOE KEY TYPE A-THIMBLE-2",
+      "date": "2025-09-15",
+      "partCategory": "A033070030",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "THIMBLE",
+      "target": 163,
+      "actual": 133
+    },
+    {
+      "id": "2025-09-15-B044050015-BEARING HOUSING-WASHER-3",
+      "date": "2025-09-15",
+      "partCategory": "B044050015",
+      "part": "BEARING HOUSING",
+      "subPart": "WASHER",
+      "target": 120,
+      "actual": 115
+    },
+    {
+      "id": "2025-09-15-B044050015-VALVE ASSEMBLY-THIMBLE-4",
+      "date": "2025-09-15",
+      "partCategory": "B044050015",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "THIMBLE",
+      "target": 64,
+      "actual": 66
+    },
+    {
+      "id": "2025-09-15-A033070003-SAFETY WIRE-SEAL RING-5",
+      "date": "2025-09-15",
+      "partCategory": "A033070003",
+      "part": "SAFETY WIRE",
+      "subPart": "SEAL RING",
+      "target": 83,
+      "actual": 75
+    },
+    {
+      "id": "2025-09-15-A033070003-BEARING HOUSING-LOCKING METAL-6",
+      "date": "2025-09-15",
+      "partCategory": "A033070003",
+      "part": "BEARING HOUSING",
+      "subPart": "LOCKING METAL",
+      "target": 82,
+      "actual": 73
+    },
+    {
+      "id": "2025-09-15-A033080011-BEARING HOUSING-THIMBLE-7",
+      "date": "2025-09-15",
+      "partCategory": "A033080011",
+      "part": "BEARING HOUSING",
+      "subPart": "THIMBLE",
+      "target": 142,
+      "actual": 170
+    },
+    {
+      "id": "2025-09-15-B044050015-BRAKE SHOE KEY TYPE A-BRACKET-8",
+      "date": "2025-09-15",
+      "partCategory": "B044050015",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "BRACKET",
+      "target": 82,
+      "actual": 80
+    },
+    {
+      "id": "2025-09-16-A033070030-SHAFT COUPLING-LOCKING METAL-0",
+      "date": "2025-09-16",
+      "partCategory": "A033070030",
+      "part": "SHAFT COUPLING",
+      "subPart": "LOCKING METAL",
+      "target": 176,
+      "actual": 144
+    },
+    {
+      "id": "2025-09-16-C055060020-VALVE ASSEMBLY-THIMBLE-1",
+      "date": "2025-09-16",
+      "partCategory": "C055060020",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "THIMBLE",
+      "target": 83,
+      "actual": 71
+    },
+    {
+      "id": "2025-09-16-A033070003-BEARING HOUSING-LOCKING METAL-2",
+      "date": "2025-09-16",
+      "partCategory": "A033070003",
+      "part": "BEARING HOUSING",
+      "subPart": "LOCKING METAL",
+      "target": 74,
+      "actual": 83
+    },
+    {
+      "id": "2025-09-16-C055060020-PEN SWING LINK-CONNECTOR-3",
+      "date": "2025-09-16",
+      "partCategory": "C055060020",
+      "part": "PEN SWING LINK",
+      "subPart": "CONNECTOR",
+      "target": 200,
+      "actual": 221
+    },
+    {
+      "id": "2025-09-16-A033080011-VALVE ASSEMBLY-CONNECTOR-4",
+      "date": "2025-09-16",
+      "partCategory": "A033080011",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "CONNECTOR",
+      "target": 177,
+      "actual": 168
+    },
+    {
+      "id": "2025-09-16-B044050015-BRAKE SHOE KEY TYPE A-O-RING-5",
+      "date": "2025-09-16",
+      "partCategory": "B044050015",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "O-RING",
+      "target": 86,
+      "actual": 88
+    },
+    {
+      "id": "2025-09-16-A033070003-PEN SWING LINK-LOCKING METAL-6",
+      "date": "2025-09-16",
+      "partCategory": "A033070003",
+      "part": "PEN SWING LINK",
+      "subPart": "LOCKING METAL",
+      "target": 178,
+      "actual": 151
+    },
+    {
+      "id": "2025-09-17-A033080011-SAFETY WIRE-THIMBLE-0",
+      "date": "2025-09-17",
+      "partCategory": "A033080011",
+      "part": "SAFETY WIRE",
+      "subPart": "THIMBLE",
+      "target": 61,
+      "actual": 63
+    },
+    {
+      "id": "2025-09-17-A033080011-VALVE ASSEMBLY-O-RING-1",
+      "date": "2025-09-17",
+      "partCategory": "A033080011",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "O-RING",
+      "target": 192,
+      "actual": 196
+    },
+    {
+      "id": "2025-09-17-B044050015-BRAKE SHOE KEY TYPE A-O-RING-2",
+      "date": "2025-09-17",
+      "partCategory": "B044050015",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "O-RING",
+      "target": 98,
+      "actual": 94
+    },
+    {
+      "id": "2025-09-17-A033070003-VALVE ASSEMBLY-WASHER-3",
+      "date": "2025-09-17",
+      "partCategory": "A033070003",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "WASHER",
+      "target": 169,
+      "actual": 197
+    },
+    {
+      "id": "2025-09-17-A033070030-SAFETY WIRE-O-RING-4",
+      "date": "2025-09-17",
+      "partCategory": "A033070030",
+      "part": "SAFETY WIRE",
+      "subPart": "O-RING",
+      "target": 77,
+      "actual": 86
+    },
+    {
+      "id": "2025-09-17-A033070030-SAFETY WIRE-CONNECTOR-5",
+      "date": "2025-09-17",
+      "partCategory": "A033070030",
+      "part": "SAFETY WIRE",
+      "subPart": "CONNECTOR",
+      "target": 85,
+      "actual": 77
+    },
+    {
+      "id": "2025-09-17-C055060020-VALVE ASSEMBLY-O-RING-6",
+      "date": "2025-09-17",
+      "partCategory": "C055060020",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "O-RING",
+      "target": 65,
+      "actual": 68
+    },
+    {
+      "id": "2025-09-17-C055060020-HYDRAULIC CYLINDER-O-RING-7",
+      "date": "2025-09-17",
+      "partCategory": "C055060020",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "O-RING",
+      "target": 110,
+      "actual": 99
+    },
+    {
+      "id": "2025-09-18-A033070030-BRAKE SHOE KEY TYPE A-FASTENER-0",
+      "date": "2025-09-18",
+      "partCategory": "A033070030",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "FASTENER",
+      "target": 182,
+      "actual": 219
+    },
+    {
+      "id": "2025-09-18-A033080011-BEARING HOUSING-O-RING-1",
+      "date": "2025-09-18",
+      "partCategory": "A033080011",
+      "part": "BEARING HOUSING",
+      "subPart": "O-RING",
+      "target": 66,
+      "actual": 62
+    },
+    {
+      "id": "2025-09-18-A033070030-PEN SWING LINK-THIMBLE-2",
+      "date": "2025-09-18",
+      "partCategory": "A033070030",
+      "part": "PEN SWING LINK",
+      "subPart": "THIMBLE",
+      "target": 175,
+      "actual": 193
+    },
+    {
+      "id": "2025-09-18-A033070003-SHAFT COUPLING-MOUNTING PLATE-3",
+      "date": "2025-09-18",
+      "partCategory": "A033070003",
+      "part": "SHAFT COUPLING",
+      "subPart": "MOUNTING PLATE",
+      "target": 171,
+      "actual": 189
+    },
+    {
+      "id": "2025-09-18-A033070003-SHAFT COUPLING-THIMBLE-4",
+      "date": "2025-09-18",
+      "partCategory": "A033070003",
+      "part": "SHAFT COUPLING",
+      "subPart": "THIMBLE",
+      "target": 169,
+      "actual": 183
+    },
+    {
+      "id": "2025-09-18-A033070030-PEN SWING LINK-CONNECTOR-5",
+      "date": "2025-09-18",
+      "partCategory": "A033070030",
+      "part": "PEN SWING LINK",
+      "subPart": "CONNECTOR",
+      "target": 118,
+      "actual": 115
+    },
+    {
+      "id": "2025-09-18-A033070003-HYDRAULIC CYLINDER-BUSHING-6",
+      "date": "2025-09-18",
+      "partCategory": "A033070003",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "BUSHING",
+      "target": 149,
+      "actual": 134
+    },
+    {
+      "id": "2025-09-18-C055060020-VALVE ASSEMBLY-SEAL RING-7",
+      "date": "2025-09-18",
+      "partCategory": "C055060020",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "SEAL RING",
+      "target": 141,
+      "actual": 120
+    },
+    {
+      "id": "2025-09-18-C055060020-HYDRAULIC CYLINDER-LOCKING METAL-8",
+      "date": "2025-09-18",
+      "partCategory": "C055060020",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "LOCKING METAL",
+      "target": 101,
+      "actual": 88
+    },
+    {
+      "id": "2025-09-18-A033080011-BEARING HOUSING-MOUNTING PLATE-9",
+      "date": "2025-09-18",
+      "partCategory": "A033080011",
+      "part": "BEARING HOUSING",
+      "subPart": "MOUNTING PLATE",
+      "target": 182,
+      "actual": 210
+    },
+    {
+      "id": "2025-09-18-C055060020-BRAKE SHOE KEY TYPE A-O-RING-10",
+      "date": "2025-09-18",
+      "partCategory": "C055060020",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "O-RING",
+      "target": 129,
+      "actual": 116
+    },
+    {
+      "id": "2025-09-19-A033070030-HYDRAULIC CYLINDER-MOUNTING PLATE-0",
+      "date": "2025-09-19",
+      "partCategory": "A033070030",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "MOUNTING PLATE",
+      "target": 177,
+      "actual": 194
+    },
+    {
+      "id": "2025-09-19-A033070030-BEARING HOUSING-WASHER-1",
+      "date": "2025-09-19",
+      "partCategory": "A033070030",
+      "part": "BEARING HOUSING",
+      "subPart": "WASHER",
+      "target": 73,
+      "actual": 63
+    },
+    {
+      "id": "2025-09-19-A033070030-BEARING HOUSING-THIMBLE-2",
+      "date": "2025-09-19",
+      "partCategory": "A033070030",
+      "part": "BEARING HOUSING",
+      "subPart": "THIMBLE",
+      "target": 163,
+      "actual": 138
+    },
+    {
+      "id": "2025-09-19-C055060020-HYDRAULIC CYLINDER-FASTENER-3",
+      "date": "2025-09-19",
+      "partCategory": "C055060020",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "FASTENER",
+      "target": 59,
+      "actual": 51
+    },
+    {
+      "id": "2025-09-19-B044050015-VALVE ASSEMBLY-O-RING-4",
+      "date": "2025-09-19",
+      "partCategory": "B044050015",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "O-RING",
+      "target": 155,
+      "actual": 166
+    },
+    {
+      "id": "2025-09-19-A033080011-BRAKE SHOE KEY TYPE A-FASTENER-5",
+      "date": "2025-09-19",
+      "partCategory": "A033080011",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "FASTENER",
+      "target": 105,
+      "actual": 119
+    },
+    {
+      "id": "2025-09-19-B044050015-BEARING HOUSING-BUSHING-6",
+      "date": "2025-09-19",
+      "partCategory": "B044050015",
+      "part": "BEARING HOUSING",
+      "subPart": "BUSHING",
+      "target": 108,
+      "actual": 113
+    },
+    {
+      "id": "2025-09-19-C055060020-VALVE ASSEMBLY-THIMBLE-7",
+      "date": "2025-09-19",
+      "partCategory": "C055060020",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "THIMBLE",
+      "target": 168,
+      "actual": 156
+    },
+    {
+      "id": "2025-09-20-A033080011-HYDRAULIC CYLINDER-BRACKET-0",
+      "date": "2025-09-20",
+      "partCategory": "A033080011",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "BRACKET",
+      "target": 154,
+      "actual": 158
+    },
+    {
+      "id": "2025-09-20-C055060020-BEARING HOUSING-BUSHING-1",
+      "date": "2025-09-20",
+      "partCategory": "C055060020",
+      "part": "BEARING HOUSING",
+      "subPart": "BUSHING",
+      "target": 172,
+      "actual": 170
+    },
+    {
+      "id": "2025-09-20-B044050015-BRAKE SHOE KEY TYPE A-LOCKING METAL-2",
+      "date": "2025-09-20",
+      "partCategory": "B044050015",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "LOCKING METAL",
+      "target": 54,
+      "actual": 49
+    },
+    {
+      "id": "2025-09-20-A033070030-SAFETY WIRE-O-RING-3",
+      "date": "2025-09-20",
+      "partCategory": "A033070030",
+      "part": "SAFETY WIRE",
+      "subPart": "O-RING",
+      "target": 181,
+      "actual": 197
+    },
+    {
+      "id": "2025-09-20-B044050015-VALVE ASSEMBLY-CONNECTOR-4",
+      "date": "2025-09-20",
+      "partCategory": "B044050015",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "CONNECTOR",
+      "target": 69,
+      "actual": 72
+    },
+    {
+      "id": "2025-09-20-A033070030-PEN SWING LINK-FASTENER-5",
+      "date": "2025-09-20",
+      "partCategory": "A033070030",
+      "part": "PEN SWING LINK",
+      "subPart": "FASTENER",
+      "target": 169,
+      "actual": 193
+    },
+    {
+      "id": "2025-09-20-B044050015-VALVE ASSEMBLY-MOUNTING PLATE-6",
+      "date": "2025-09-20",
+      "partCategory": "B044050015",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "MOUNTING PLATE",
+      "target": 61,
+      "actual": 70
+    },
+    {
+      "id": "2025-09-20-A033080011-SHAFT COUPLING-BRACKET-7",
+      "date": "2025-09-20",
+      "partCategory": "A033080011",
+      "part": "SHAFT COUPLING",
+      "subPart": "BRACKET",
+      "target": 195,
+      "actual": 220
+    },
+    {
+      "id": "2025-09-20-C055060020-PEN SWING LINK-THIMBLE-8",
+      "date": "2025-09-20",
+      "partCategory": "C055060020",
+      "part": "PEN SWING LINK",
+      "subPart": "THIMBLE",
+      "target": 199,
+      "actual": 174
+    },
+    {
+      "id": "2025-09-21-A033070003-SAFETY WIRE-O-RING-0",
+      "date": "2025-09-21",
+      "partCategory": "A033070003",
+      "part": "SAFETY WIRE",
+      "subPart": "O-RING",
+      "target": 57,
+      "actual": 59
+    },
+    {
+      "id": "2025-09-21-B044050015-HYDRAULIC CYLINDER-BUSHING-1",
+      "date": "2025-09-21",
+      "partCategory": "B044050015",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "BUSHING",
+      "target": 90,
+      "actual": 96
+    },
+    {
+      "id": "2025-09-21-A033080011-BEARING HOUSING-FASTENER-2",
+      "date": "2025-09-21",
+      "partCategory": "A033080011",
+      "part": "BEARING HOUSING",
+      "subPart": "FASTENER",
+      "target": 53,
+      "actual": 49
+    },
+    {
+      "id": "2025-09-21-B044050015-PEN SWING LINK-O-RING-3",
+      "date": "2025-09-21",
+      "partCategory": "B044050015",
+      "part": "PEN SWING LINK",
+      "subPart": "O-RING",
+      "target": 159,
+      "actual": 128
+    },
+    {
+      "id": "2025-09-21-A033080011-BRAKE SHOE KEY TYPE A-MOUNTING PLATE-4",
+      "date": "2025-09-21",
+      "partCategory": "A033080011",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "MOUNTING PLATE",
+      "target": 150,
+      "actual": 122
+    },
+    {
+      "id": "2025-09-21-A033070003-HYDRAULIC CYLINDER-BRACKET-5",
+      "date": "2025-09-21",
+      "partCategory": "A033070003",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "BRACKET",
+      "target": 138,
+      "actual": 142
+    },
+    {
+      "id": "2025-09-22-C055060020-SAFETY WIRE-SEAL RING-0",
+      "date": "2025-09-22",
+      "partCategory": "C055060020",
+      "part": "SAFETY WIRE",
+      "subPart": "SEAL RING",
+      "target": 155,
+      "actual": 148
+    },
+    {
+      "id": "2025-09-22-A033080011-HYDRAULIC CYLINDER-THIMBLE-1",
+      "date": "2025-09-22",
+      "partCategory": "A033080011",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "THIMBLE",
+      "target": 119,
+      "actual": 122
+    },
+    {
+      "id": "2025-09-22-A033080011-BEARING HOUSING-WASHER-2",
+      "date": "2025-09-22",
+      "partCategory": "A033080011",
+      "part": "BEARING HOUSING",
+      "subPart": "WASHER",
+      "target": 183,
+      "actual": 169
+    },
+    {
+      "id": "2025-09-22-A033070030-HYDRAULIC CYLINDER-CONNECTOR-3",
+      "date": "2025-09-22",
+      "partCategory": "A033070030",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "CONNECTOR",
+      "target": 188,
+      "actual": 192
+    },
+    {
+      "id": "2025-09-22-A033070030-PEN SWING LINK-WASHER-4",
+      "date": "2025-09-22",
+      "partCategory": "A033070030",
+      "part": "PEN SWING LINK",
+      "subPart": "WASHER",
+      "target": 79,
+      "actual": 85
+    },
+    {
+      "id": "2025-09-22-C055060020-VALVE ASSEMBLY-SEAL RING-5",
+      "date": "2025-09-22",
+      "partCategory": "C055060020",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "SEAL RING",
+      "target": 199,
+      "actual": 180
+    },
+    {
+      "id": "2025-09-22-C055060020-HYDRAULIC CYLINDER-O-RING-6",
+      "date": "2025-09-22",
+      "partCategory": "C055060020",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "O-RING",
+      "target": 122,
+      "actual": 134
+    },
+    {
+      "id": "2025-09-22-B044050015-SAFETY WIRE-O-RING-7",
+      "date": "2025-09-22",
+      "partCategory": "B044050015",
+      "part": "SAFETY WIRE",
+      "subPart": "O-RING",
+      "target": 129,
+      "actual": 117
+    },
+    {
+      "id": "2025-09-22-A033070003-BRAKE SHOE KEY TYPE A-LOCKING METAL-8",
+      "date": "2025-09-22",
+      "partCategory": "A033070003",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "LOCKING METAL",
+      "target": 114,
+      "actual": 99
+    },
+    {
+      "id": "2025-09-22-A033070003-BRAKE SHOE KEY TYPE A-LOCKING METAL-9",
+      "date": "2025-09-22",
+      "partCategory": "A033070003",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "LOCKING METAL",
+      "target": 74,
+      "actual": 86
+    },
+    {
+      "id": "2025-09-22-A033080011-SAFETY WIRE-BRACKET-10",
+      "date": "2025-09-22",
+      "partCategory": "A033080011",
+      "part": "SAFETY WIRE",
+      "subPart": "BRACKET",
+      "target": 84,
+      "actual": 85
+    },
+    {
+      "id": "2025-09-23-A033070030-BEARING HOUSING-THIMBLE-0",
+      "date": "2025-09-23",
+      "partCategory": "A033070030",
+      "part": "BEARING HOUSING",
+      "subPart": "THIMBLE",
+      "target": 52,
+      "actual": 42
+    },
+    {
+      "id": "2025-09-23-A033080011-HYDRAULIC CYLINDER-THIMBLE-1",
+      "date": "2025-09-23",
+      "partCategory": "A033080011",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "THIMBLE",
+      "target": 109,
+      "actual": 88
+    },
+    {
+      "id": "2025-09-23-A033070003-BEARING HOUSING-BRACKET-2",
+      "date": "2025-09-23",
+      "partCategory": "A033070003",
+      "part": "BEARING HOUSING",
+      "subPart": "BRACKET",
+      "target": 90,
+      "actual": 78
+    },
+    {
+      "id": "2025-09-23-B044050015-BEARING HOUSING-THIMBLE-3",
+      "date": "2025-09-23",
+      "partCategory": "B044050015",
+      "part": "BEARING HOUSING",
+      "subPart": "THIMBLE",
+      "target": 177,
+      "actual": 184
+    },
+    {
+      "id": "2025-09-23-A033070030-SAFETY WIRE-THIMBLE-4",
+      "date": "2025-09-23",
+      "partCategory": "A033070030",
+      "part": "SAFETY WIRE",
+      "subPart": "THIMBLE",
+      "target": 160,
+      "actual": 190
+    },
+    {
+      "id": "2025-09-24-A033070003-SHAFT COUPLING-THIMBLE-0",
+      "date": "2025-09-24",
+      "partCategory": "A033070003",
+      "part": "SHAFT COUPLING",
+      "subPart": "THIMBLE",
+      "target": 100,
+      "actual": 82
+    },
+    {
+      "id": "2025-09-24-C055060020-PEN SWING LINK-FASTENER-1",
+      "date": "2025-09-24",
+      "partCategory": "C055060020",
+      "part": "PEN SWING LINK",
+      "subPart": "FASTENER",
+      "target": 109,
+      "actual": 123
+    },
+    {
+      "id": "2025-09-24-B044050015-PEN SWING LINK-O-RING-2",
+      "date": "2025-09-24",
+      "partCategory": "B044050015",
+      "part": "PEN SWING LINK",
+      "subPart": "O-RING",
+      "target": 81,
+      "actual": 70
+    },
+    {
+      "id": "2025-09-24-A033080011-BRAKE SHOE KEY TYPE A-CONNECTOR-3",
+      "date": "2025-09-24",
+      "partCategory": "A033080011",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "CONNECTOR",
+      "target": 109,
+      "actual": 88
+    },
+    {
+      "id": "2025-09-24-A033070030-VALVE ASSEMBLY-MOUNTING PLATE-4",
+      "date": "2025-09-24",
+      "partCategory": "A033070030",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "MOUNTING PLATE",
+      "target": 122,
+      "actual": 133
+    },
+    {
+      "id": "2025-09-24-B044050015-HYDRAULIC CYLINDER-THIMBLE-5",
+      "date": "2025-09-24",
+      "partCategory": "B044050015",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "THIMBLE",
+      "target": 156,
+      "actual": 145
+    },
+    {
+      "id": "2025-09-24-A033070003-PEN SWING LINK-THIMBLE-6",
+      "date": "2025-09-24",
+      "partCategory": "A033070003",
+      "part": "PEN SWING LINK",
+      "subPart": "THIMBLE",
+      "target": 178,
+      "actual": 155
+    },
+    {
+      "id": "2025-09-25-C055060020-BRAKE SHOE KEY TYPE A-MOUNTING PLATE-0",
+      "date": "2025-09-25",
+      "partCategory": "C055060020",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "MOUNTING PLATE",
+      "target": 51,
+      "actual": 50
+    },
+    {
+      "id": "2025-09-25-B044050015-PEN SWING LINK-CONNECTOR-1",
+      "date": "2025-09-25",
+      "partCategory": "B044050015",
+      "part": "PEN SWING LINK",
+      "subPart": "CONNECTOR",
+      "target": 120,
+      "actual": 123
+    },
+    {
+      "id": "2025-09-25-B044050015-HYDRAULIC CYLINDER-BRACKET-2",
+      "date": "2025-09-25",
+      "partCategory": "B044050015",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "BRACKET",
+      "target": 123,
+      "actual": 110
+    },
+    {
+      "id": "2025-09-25-A033080011-SHAFT COUPLING-BRACKET-3",
+      "date": "2025-09-25",
+      "partCategory": "A033080011",
+      "part": "SHAFT COUPLING",
+      "subPart": "BRACKET",
+      "target": 192,
+      "actual": 187
+    },
+    {
+      "id": "2025-09-25-A033070030-BEARING HOUSING-BUSHING-4",
+      "date": "2025-09-25",
+      "partCategory": "A033070030",
+      "part": "BEARING HOUSING",
+      "subPart": "BUSHING",
+      "target": 141,
+      "actual": 151
+    },
+    {
+      "id": "2025-09-25-A033070003-SHAFT COUPLING-BRACKET-5",
+      "date": "2025-09-25",
+      "partCategory": "A033070003",
+      "part": "SHAFT COUPLING",
+      "subPart": "BRACKET",
+      "target": 136,
+      "actual": 131
+    },
+    {
+      "id": "2025-09-26-A033070030-HYDRAULIC CYLINDER-CONNECTOR-0",
+      "date": "2025-09-26",
+      "partCategory": "A033070030",
+      "part": "HYDRAULIC CYLINDER",
+      "subPart": "CONNECTOR",
+      "target": 128,
+      "actual": 135
+    },
+    {
+      "id": "2025-09-26-A033070003-BEARING HOUSING-WASHER-1",
+      "date": "2025-09-26",
+      "partCategory": "A033070003",
+      "part": "BEARING HOUSING",
+      "subPart": "WASHER",
+      "target": 122,
+      "actual": 113
+    },
+    {
+      "id": "2025-09-26-C055060020-BEARING HOUSING-FASTENER-2",
+      "date": "2025-09-26",
+      "partCategory": "C055060020",
+      "part": "BEARING HOUSING",
+      "subPart": "FASTENER",
+      "target": 116,
+      "actual": 128
+    },
+    {
+      "id": "2025-09-26-A033070030-SHAFT COUPLING-CONNECTOR-3",
+      "date": "2025-09-26",
+      "partCategory": "A033070030",
+      "part": "SHAFT COUPLING",
+      "subPart": "CONNECTOR",
+      "target": 183,
+      "actual": 188
+    },
+    {
+      "id": "2025-09-26-A033070003-SHAFT COUPLING-FASTENER-4",
+      "date": "2025-09-26",
+      "partCategory": "A033070003",
+      "part": "SHAFT COUPLING",
+      "subPart": "FASTENER",
+      "target": 184,
+      "actual": 205
+    },
+    {
+      "id": "2025-09-26-A033080011-VALVE ASSEMBLY-CONNECTOR-5",
+      "date": "2025-09-26",
+      "partCategory": "A033080011",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "CONNECTOR",
+      "target": 178,
+      "actual": 174
+    },
+    {
+      "id": "2025-09-26-A033070003-SAFETY WIRE-FASTENER-6",
+      "date": "2025-09-26",
+      "partCategory": "A033070003",
+      "part": "SAFETY WIRE",
+      "subPart": "FASTENER",
+      "target": 95,
+      "actual": 81
+    },
+    {
+      "id": "2025-09-26-A033070003-SAFETY WIRE-O-RING-7",
+      "date": "2025-09-26",
+      "partCategory": "A033070003",
+      "part": "SAFETY WIRE",
+      "subPart": "O-RING",
+      "target": 127,
+      "actual": 147
+    },
+    {
+      "id": "2025-09-26-A033070003-PEN SWING LINK-MOUNTING PLATE-8",
+      "date": "2025-09-26",
+      "partCategory": "A033070003",
+      "part": "PEN SWING LINK",
+      "subPart": "MOUNTING PLATE",
+      "target": 129,
+      "actual": 111
+    },
+    {
+      "id": "2025-09-26-A033080011-PEN SWING LINK-MOUNTING PLATE-9",
+      "date": "2025-09-26",
+      "partCategory": "A033080011",
+      "part": "PEN SWING LINK",
+      "subPart": "MOUNTING PLATE",
+      "target": 197,
+      "actual": 159
+    },
+    {
+      "id": "2025-09-27-C055060020-PEN SWING LINK-SEAL RING-0",
+      "date": "2025-09-27",
+      "partCategory": "C055060020",
+      "part": "PEN SWING LINK",
+      "subPart": "SEAL RING",
+      "target": 159,
+      "actual": 133
+    },
+    {
+      "id": "2025-09-27-B044050015-SAFETY WIRE-WASHER-1",
+      "date": "2025-09-27",
+      "partCategory": "B044050015",
+      "part": "SAFETY WIRE",
+      "subPart": "WASHER",
+      "target": 176,
+      "actual": 152
+    },
+    {
+      "id": "2025-09-27-C055060020-VALVE ASSEMBLY-THIMBLE-2",
+      "date": "2025-09-27",
+      "partCategory": "C055060020",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "THIMBLE",
+      "target": 52,
+      "actual": 48
+    },
+    {
+      "id": "2025-09-27-C055060020-BRAKE SHOE KEY TYPE A-BRACKET-3",
+      "date": "2025-09-27",
+      "partCategory": "C055060020",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "BRACKET",
+      "target": 120,
+      "actual": 127
+    },
+    {
+      "id": "2025-09-27-B044050015-PEN SWING LINK-MOUNTING PLATE-4",
+      "date": "2025-09-27",
+      "partCategory": "B044050015",
+      "part": "PEN SWING LINK",
+      "subPart": "MOUNTING PLATE",
+      "target": 146,
+      "actual": 127
+    },
+    {
+      "id": "2025-09-27-A033080011-PEN SWING LINK-BRACKET-5",
+      "date": "2025-09-27",
+      "partCategory": "A033080011",
+      "part": "PEN SWING LINK",
+      "subPart": "BRACKET",
+      "target": 146,
+      "actual": 162
+    },
+    {
+      "id": "2025-09-27-A033070030-BRAKE SHOE KEY TYPE A-BUSHING-6",
+      "date": "2025-09-27",
+      "partCategory": "A033070030",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "BUSHING",
+      "target": 103,
+      "actual": 119
+    },
+    {
+      "id": "2025-09-27-A033070030-VALVE ASSEMBLY-BRACKET-7",
+      "date": "2025-09-27",
+      "partCategory": "A033070030",
+      "part": "VALVE ASSEMBLY",
+      "subPart": "BRACKET",
+      "target": 135,
+      "actual": 113
+    },
+    {
+      "id": "2025-09-27-B044050015-BRAKE SHOE KEY TYPE A-WASHER-8",
+      "date": "2025-09-27",
+      "partCategory": "B044050015",
+      "part": "BRAKE SHOE KEY TYPE A",
+      "subPart": "WASHER",
+      "target": 138,
+      "actual": 129
+    },
+    {
+      "id": "2025-09-27-C055060020-SHAFT COUPLING-SEAL RING-9",
+      "date": "2025-09-27",
+      "partCategory": "C055060020",
+      "part": "SHAFT COUPLING",
+      "subPart": "SEAL RING",
+      "target": 155,
+      "actual": 149
+    },
+    {
+      "id": "2025-09-27-A033080011-SHAFT COUPLING-LOCKING METAL-10",
+      "date": "2025-09-27",
+      "partCategory": "A033080011",
+      "part": "SHAFT COUPLING",
+      "subPart": "LOCKING METAL",
+      "target": 172,
+      "actual": 147
+    }
+  ],
+  "filterOptions": {
+    "partCategories": [
+      "A033070003",
+      "A033070030",
+      "A033080011",
+      "B044050015",
+      "C055060020"
+    ],
+    "parts": [
+      "BEARING HOUSING",
+      "BRAKE SHOE KEY TYPE A",
+      "HYDRAULIC CYLINDER",
+      "PEN SWING LINK",
+      "SAFETY WIRE",
+      "SHAFT COUPLING",
+      "VALVE ASSEMBLY"
+    ],
+    "subParts": [
+      "BRACKET",
+      "BUSHING",
+      "CONNECTOR",
+      "FASTENER",
+      "LOCKING METAL",
+      "MOUNTING PLATE",
+      "O-RING",
+      "SEAL RING",
+      "THIMBLE",
+      "WASHER"
+    ]
+  },
+  "currentFilters": {
+    "partCategory": "",
+    "part": "",
+    "dateRange": "30days"
+  },
+  "statistics": {
+    "totalDays": 31,
+    "activeSubParts": 10,
+    "totalTarget": 31433,
+    "totalActual": 31359,
+    "totalDelta": -74
+  },
+  "chartData": [],
+  "dailyBreakdown": null,
+  "lastUpdated": "2025-09-26T22:11:10.223Z",
+  "status": "live",
+  "dataSummary": {
+    "totalRecords": 242,
+    "dateRange": {
+      "start": "2025-08-29",
+      "end": "2025-09-27"
+    },
+    "uniqueCategories": 5,
+    "uniqueParts": 7,
+    "uniqueSubParts": 10
+  }
+}

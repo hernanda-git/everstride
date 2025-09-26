@@ -10,6 +10,7 @@ import {
   Tooltip,
   Legend,
   ResponsiveContainer,
+  LegendProps,
 } from 'recharts';
 import { ChartData } from '@/types';
 
@@ -55,6 +56,38 @@ const CustomTooltip = ({ active, payload, label }: CustomTooltipProps) => {
   return null;
 };
 
+const CustomLegend = (props: LegendProps & { subParts: string[], getColor: (subPart: string, type: 'target' | 'actual') => string }) => {
+  const { subParts, getColor } = props;
+
+  return (
+    <div className="flex flex-wrap gap-6 justify-center mt-6">
+      {subParts.map((subPart, index) => (
+        <div key={subPart} className="flex flex-col items-start gap-1">
+          <div className="text-sm font-medium text-primary capitalize text-left">
+            {subPart.replace(/_/g, ' ')}
+          </div>
+          <div className="flex flex-col gap-2">
+            <div className="flex items-center gap-2 text-sm">
+              <div
+                className="w-4 h-4 rounded-md shadow-sm"
+                style={{ backgroundColor: getColor(subPart, 'actual') }}
+              />
+              <span className="text-muted-foreground font-medium">Actual</span>
+            </div>
+            <div className="flex items-center gap-2 text-sm">
+              <div
+                className="w-4 h-4 rounded-md shadow-sm"
+                style={{ backgroundColor: getColor(subPart, 'target') }}
+              />
+              <span className="text-muted-foreground font-medium">Target</span>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+};
+
 export function ProductionChart({ data, onBarClick }: ProductionChartProps) {
   // Get all unique sub-parts from the data to create dynamic bars
   const subParts = React.useMemo(() => {
@@ -70,35 +103,30 @@ export function ProductionChart({ data, onBarClick }: ProductionChartProps) {
     return Array.from(parts);
   }, [data]);
 
-  // Generate premium colors for each sub-part with gradients
+  // Generate clear, contrasting colors for each sub-part
   const getColor = (subPart: string, type: 'target' | 'actual') => {
-    const premiumColorSchemes = [
-      { target: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', actual: 'linear-gradient(135deg, #764ba2 0%, #667eea 100%)' },
-      { target: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)', actual: 'linear-gradient(135deg, #f5576c 0%, #f093fb 100%)' },
-      { target: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)', actual: 'linear-gradient(135deg, #00f2fe 0%, #4facfe 100%)' },
-      { target: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)', actual: 'linear-gradient(135deg, #38f9d7 0%, #43e97b 100%)' },
-      { target: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)', actual: 'linear-gradient(135deg, #fee140 0%, #fa709a 100%)' },
-      { target: 'linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)', actual: 'linear-gradient(135deg, #fed6e3 0%, #a8edea 100%)' },
-      { target: 'linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)', actual: 'linear-gradient(135deg, #fecfef 0%, #ff9a9e 100%)' },
-      { target: 'linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)', actual: 'linear-gradient(135deg, #fcb69f 0%, #ffecd2 100%)' },
+    // High contrast color schemes with clear distinction between target and actual
+    const colorSchemes = [
+      // Blue scheme: Target = muted blue, Actual = bright blue
+      { target: '#94a3b8', actual: '#3b82f6' },
+      // Green scheme: Target = muted green, Actual = bright green
+      { target: '#86efac', actual: '#22c55e' },
+      // Purple scheme: Target = muted purple, Actual = bright purple
+      { target: '#c4b5fd', actual: '#a855f7' },
+      // Orange scheme: Target = muted orange, Actual = bright orange
+      { target: '#fed7aa', actual: '#f97316' },
+      // Teal scheme: Target = muted teal, Actual = bright teal
+      { target: '#a7f3d0', actual: '#14b8a6' },
+      // Pink scheme: Target = muted pink, Actual = bright pink
+      { target: '#f9a8d4', actual: '#ec4899' },
+      // Indigo scheme: Target = muted indigo, Actual = bright indigo
+      { target: '#a5b4fc', actual: '#6366f1' },
+      // Red scheme: Target = muted red, Actual = bright red
+      { target: '#fca5a5', actual: '#ef4444' },
     ];
 
-    const index = subParts.indexOf(subPart) % premiumColorSchemes.length;
-    const scheme = premiumColorSchemes[index];
-
-    // Return solid colors for Recharts (gradients not directly supported)
-    const solidColors = [
-      { target: '#667eea', actual: '#764ba2' },
-      { target: '#f093fb', actual: '#f5576c' },
-      { target: '#4facfe', actual: '#00f2fe' },
-      { target: '#43e97b', actual: '#38f9d7' },
-      { target: '#fa709a', actual: '#fee140' },
-      { target: '#a8edea', actual: '#fed6e3' },
-      { target: '#ff9a9e', actual: '#fecfef' },
-      { target: '#ffecd2', actual: '#fcb69f' },
-    ];
-
-    return solidColors[index][type];
+    const index = subParts.indexOf(subPart) % colorSchemes.length;
+    return colorSchemes[index][type];
   };
 
   const handleClick = (data: { activeLabel?: string }) => {
@@ -194,11 +222,7 @@ export function ProductionChart({ data, onBarClick }: ProductionChartProps) {
                 cursor={{ fill: 'rgba(0,0,0,0.05)' }}
               />
               <Legend
-                wrapperStyle={{
-                  paddingTop: '20px',
-                  fontSize: '14px',
-                  fontWeight: '500'
-                }}
+                content={<CustomLegend subParts={subParts} getColor={getColor} />}
               />
 
               {subParts.map((subPart, index) => (

@@ -217,10 +217,10 @@ export default function DashboardPageClient() {
     <div className={`min-h-screen bg-gradient-to-br from-background via-background to-accent/30 transition-opacity duration-700 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}>
       <main className="py-12 px-6">
         {/* Premium Header */}
-        <div className="relative mb-12">
+        <div className="relative">
           <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-secondary/5 rounded-3xl blur-3xl"></div>
-          <div className="relative glass rounded-3xl p-8 border border-white/20 shadow-premium">
-            <div className="flex items-center justify-between mb-6">
+          <div className="relative glass rounded-3xl px-8 pb-4 border border-white/20 shadow-premium">
+            <div className="flex items-center justify-between">
               <div>
                 <div className="inline-flex items-center gap-3 mb-4">
                   <div className="w-12 h-12 rounded-xl bg-gradient-primary flex items-center justify-center shadow-lg">
@@ -230,15 +230,15 @@ export default function DashboardPageClient() {
                   </div>
                   <div>
                     <h1 className="text-4xl font-bold bg-gradient-to-r from-primary via-primary/80 to-primary/60 bg-clip-text text-transparent">
-                      Asahi Sukses Industri
+                      PT. Asahi Sukses Industri
                     </h1>
                     <p className="text-sm text-muted-foreground font-medium">Manufacturing Excellence Platform</p>
                   </div>
                 </div>
-                <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl">
+                {/* <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl">
                   Real-time monitoring of production targets and actuals across all manufacturing parts and sub-parts.
                   Precision analytics for operational excellence.
-                </p>
+                </p> */}
               </div>
               <div className="hidden md:flex items-center gap-4">
                 <div className="text-right">
@@ -270,7 +270,7 @@ export default function DashboardPageClient() {
         </div>
 
         {/* Premium Filters */}
-        <div className={`mb-8 transition-all duration-700 ${isLoaded ? 'animate-in slide-in-from-left-4 fade-in duration-700' : ''}`} style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
+        <div className={`mb-4 transition-all duration-700 ${isLoaded ? 'animate-in slide-in-from-left-4 fade-in duration-700' : ''}`} style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
           <DashboardFiltersComponent
             filters={filters}
             onFiltersChange={setFilters}
@@ -288,86 +288,74 @@ export default function DashboardPageClient() {
           />
         </div>
 
-        {/* Premium Statistics Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-          <div className={`group relative overflow-hidden glass rounded-2xl p-6 border border-white/20 shadow-premium hover:shadow-xl transition-all duration-500 hover:scale-[1.02] ${isLoaded ? 'animate-in slide-in-from-bottom-4 fade-in duration-700' : ''}`} style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-cyan-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <div className="relative">
-              <div className="flex items-center justify-between mb-4">
-                <div className="p-3 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-500 shadow-lg">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3a2 2 0 012-2h2a2 2 0 012 2v4m-6 4v10a2 2 0 002 2h8a2 2 0 002-2V11M9 11h6" />
-                  </svg>
-                </div>
-                <div className="text-right">
-                  <div className="text-xs text-muted-foreground font-medium uppercase tracking-wide">Period</div>
-                </div>
+        {/* Statistics Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-4">
+          <div className={`bg-gradient-to-br from-blue-50/80 to-indigo-50/40 rounded-xl p-6 border border-blue-100/50 shadow-sm ${isLoaded ? 'animate-in slide-in-from-bottom-4 fade-in duration-700' : ''}`} style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
+            <div className="flex items-center justify-between mb-4">
+              <div className="p-3 rounded-lg bg-blue-100/60 border border-blue-200/50">
+                <svg className="w-6 h-6 text-blue-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3a2 2 0 012-2h2a2 2 0 012 2v4m-6 4v10a2 2 0 002 2h8a2 2 0 002-2V11M9 11h6" />
+                </svg>
               </div>
-              <div className="text-3xl font-bold text-primary mb-1">
-                {filters.dateRange === '7days' ? 8 : 31}
+              <div className="text-right">
+                <div className="text-xs text-blue-600 font-semibold uppercase tracking-wider">Period</div>
               </div>
-              <div className="text-sm text-muted-foreground font-medium">Total Days</div>
             </div>
+            <div className="text-3xl font-bold text-slate-900 mb-1">
+              {filters.dateRange === '7days' ? 8 : 31}
+            </div>
+            <div className="text-sm text-slate-600 font-medium">Total Days</div>
           </div>
 
-          <div className={`group relative overflow-hidden glass rounded-2xl p-6 border border-white/20 shadow-premium hover:shadow-xl transition-all duration-500 hover:scale-[1.02] ${isLoaded ? 'animate-in slide-in-from-bottom-4 fade-in duration-700' : ''}`} style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
-            <div className="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-pink-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <div className="relative">
-              <div className="flex items-center justify-between mb-4">
-                <div className="p-3 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 shadow-lg">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-                  </svg>
-                </div>
-                <div className="text-right">
-                  <div className="text-xs text-muted-foreground font-medium uppercase tracking-wide">Active</div>
-                </div>
+          <div className={`bg-gradient-to-br from-emerald-50/80 to-teal-50/40 rounded-xl p-6 border border-emerald-100/50 shadow-sm ${isLoaded ? 'animate-in slide-in-from-bottom-4 fade-in duration-700' : ''}`} style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
+            <div className="flex items-center justify-between mb-4">
+              <div className="p-3 rounded-lg bg-emerald-100/60 border border-emerald-200/50">
+                <svg className="w-6 h-6 text-emerald-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+                </svg>
               </div>
-              <div className="text-3xl font-bold text-primary mb-1">
-                {new Set(filteredData.map(d => d.subPart)).size}
+              <div className="text-right">
+                <div className="text-xs text-emerald-600 font-semibold uppercase tracking-wider">Active</div>
               </div>
-              <div className="text-sm text-muted-foreground font-medium">Sub-Parts</div>
             </div>
+            <div className="text-3xl font-bold text-slate-900 mb-1">
+              {new Set(filteredData.map(d => d.subPart)).size}
+            </div>
+            <div className="text-sm text-slate-600 font-medium">Sub-Parts</div>
           </div>
 
-          <div className={`group relative overflow-hidden glass rounded-2xl p-6 border border-white/20 shadow-premium hover:shadow-xl transition-all duration-500 hover:scale-[1.02] ${isLoaded ? 'animate-in slide-in-from-bottom-4 fade-in duration-700' : ''}`} style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
-            <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/5 to-teal-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <div className="relative">
-              <div className="flex items-center justify-between mb-4">
-                <div className="p-3 rounded-xl bg-gradient-to-br from-emerald-500 to-teal-500 shadow-lg">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                  </svg>
-                </div>
-                <div className="text-right">
-                  <div className="text-xs text-muted-foreground font-medium uppercase tracking-wide">Target</div>
-                </div>
+          <div className={`bg-gradient-to-br from-violet-50/80 to-purple-50/40 rounded-xl p-6 border border-violet-100/50 shadow-sm ${isLoaded ? 'animate-in slide-in-from-bottom-4 fade-in duration-700' : ''}`} style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
+            <div className="flex items-center justify-between mb-4">
+              <div className="p-3 rounded-lg bg-violet-100/60 border border-violet-200/50">
+                <svg className="w-6 h-6 text-violet-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                </svg>
               </div>
-              <div className="text-3xl font-bold text-primary mb-1">
-                {filteredData.reduce((sum, d) => sum + d.target, 0).toLocaleString()}
+              <div className="text-right">
+                <div className="text-xs text-violet-600 font-semibold uppercase tracking-wider">Target</div>
               </div>
-              <div className="text-sm text-muted-foreground font-medium">Production Target</div>
             </div>
+            <div className="text-3xl font-bold text-slate-900 mb-1">
+              {filteredData.reduce((sum, d) => sum + d.target, 0).toLocaleString()}
+            </div>
+            <div className="text-sm text-slate-600 font-medium">Production Target</div>
           </div>
 
-          <div className={`group relative overflow-hidden glass rounded-2xl p-6 border border-white/20 shadow-premium hover:shadow-xl transition-all duration-500 hover:scale-[1.02] ${isLoaded ? 'animate-in slide-in-from-bottom-4 fade-in duration-700' : ''}`} style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
-            <div className="absolute inset-0 bg-gradient-to-br from-orange-500/5 to-red-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <div className="relative">
-              <div className="flex items-center justify-between mb-4">
-                <div className="p-3 rounded-xl bg-gradient-to-br from-orange-500 to-red-500 shadow-lg">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-                  </svg>
-                </div>
-                <div className="text-right">
-                  <div className="text-xs text-muted-foreground font-medium uppercase tracking-wide">Actual</div>
-                </div>
+          <div className={`bg-gradient-to-br from-rose-50/80 to-pink-50/40 rounded-xl p-6 border border-rose-100/50 shadow-sm ${isLoaded ? 'animate-in slide-in-from-bottom-4 fade-in duration-700' : ''}`} style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
+            <div className="flex items-center justify-between mb-4">
+              <div className="p-3 rounded-lg bg-rose-100/60 border border-rose-200/50">
+                <svg className="w-6 h-6 text-rose-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                </svg>
               </div>
-              <div className="text-3xl font-bold text-primary mb-1">
-                {filteredData.reduce((sum, d) => sum + d.actual, 0).toLocaleString()}
+              <div className="text-right">
+                <div className="text-xs text-rose-600 font-semibold uppercase tracking-wider">Actual</div>
               </div>
-              <div className="text-sm text-muted-foreground font-medium">Production Actual</div>
             </div>
+            <div className="text-3xl font-bold text-slate-900 mb-1">
+              {filteredData.reduce((sum, d) => sum + d.actual, 0).toLocaleString()}
+            </div>
+            <div className="text-sm text-slate-600 font-medium">Production Actual</div>
           </div>
         </div>
       </main>

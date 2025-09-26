@@ -57,7 +57,7 @@ export function DashboardFiltersComponent({
   }, [filters.partCategory, partOptions]);
 
   return (
-    <div className={cn('relative overflow-hidden glass rounded-2xl p-6 border border-white/20 shadow-premium', className)}>
+    <div className={cn('relative glass rounded-2xl p-6 border border-white/20 shadow-premium', className)}>
       <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-secondary/5 rounded-2xl"></div>
       <div className="relative flex flex-wrap items-center gap-6">
         <div className="flex items-center gap-3">
