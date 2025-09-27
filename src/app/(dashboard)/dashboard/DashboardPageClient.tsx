@@ -3,7 +3,7 @@
 import * as React from 'react';
 import { format, subDays, parseISO, isWithinInterval } from 'date-fns';
 import { DUMMY_DATA, getFilterOptions } from '@/lib/dummyData';
-import { DashboardFiltersComponent, ProductionChart, DailyBreakdownModal } from '@/components/dashboard';
+import { ProductionChart, DailyBreakdownModal } from '@/components/dashboard';
 import {
   ProductionData,
   ChartData,
@@ -17,7 +17,7 @@ export default function DashboardPageClient() {
   const [filters, setFilters] = React.useState<DashboardFilters>({
     partCategory: '',
     part: '',
-    dateRange: '30days',
+    dateRange: '7days',
   });
 
   const [selectedDate, setSelectedDate] = React.useState<string | null>(null);
@@ -219,7 +219,7 @@ export default function DashboardPageClient() {
         {/* Premium Header */}
         <div className="relative">
           <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-secondary/5 rounded-3xl blur-3xl"></div>
-          <div className="relative glass rounded-3xl px-8 pb-4 border border-white/20 shadow-premium">
+          <div className="relative glass rounded-3xl mx-8 mb-4 border border-white/20 shadow-premium">
             <div className="flex items-center justify-between">
               <div>
                 <div className="inline-flex items-center gap-3 mb-4">
@@ -232,7 +232,7 @@ export default function DashboardPageClient() {
                     <h1 className="text-4xl font-bold bg-gradient-to-r from-primary via-primary/80 to-primary/60 bg-clip-text text-transparent">
                       PT. Asahi Sukses Industri
                     </h1>
-                    <p className="text-sm text-muted-foreground font-medium">Manufacturing Excellence Platform</p>
+                    <p className="text-sm text-muted-foreground font-medium">Production Monitoring</p>
                   </div>
                 </div>
                 {/* <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl">
@@ -269,16 +269,6 @@ export default function DashboardPageClient() {
           </div>
         </div>
 
-        {/* Premium Filters */}
-        <div className={`mb-4 transition-all duration-700 ${isLoaded ? 'animate-in slide-in-from-left-4 fade-in duration-700' : ''}`} style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
-          <DashboardFiltersComponent
-            filters={filters}
-            onFiltersChange={setFilters}
-            partCategoryOptions={partCategoryOptions}
-            partOptions={partOptions}
-            className="mb-6"
-          />
-        </div>
 
         {/* Chart */}
         <div className={`transition-all duration-700 ${isLoaded ? 'animate-in slide-in-from-right-4 fade-in duration-700' : ''}`} style={{ animationDelay: '0.6s', animationFillMode: 'both' }}>
